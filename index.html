@@ -61,6 +61,8 @@
 
     </script>
 
+
+
     </head>
     <body class="color-theme-gray">
 
@@ -81,7 +83,7 @@
                                 <!-- Start | Profile Card Image-->
                                 <div class="profile-card-image col-xs-12 col-sm-3 col-md-12 col-lg-12">
                                     <!--<div class="picture-holder" id="profile_picture"></div>-->
-                                    <img src="images/ritu.jpg" class="picture-holder">
+                                    <img src="images/Ritu.jpg" class="picture-holder">
 
                                 </div>
                                 <!-- End | Profile Card Image-->
@@ -96,7 +98,7 @@
 
                                         <!--Start | Name-->
                                         <div class="profile-card-name col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                            <h3 class="peach-text-color">Ritvika Nagula</h3>
+                                            <h3 class="raspberry-text-color">Ritvika Nagula</h3>
                                         </div>
                                         <!--End | Name-->
 
@@ -172,17 +174,17 @@
                                                 Machine Learning Enthusiast
                                             </p>
                                             <p class="para">
-                                                Currently intrigued by <span class="peach-text-color">TensorFlow</span> and <span class ="peach-text-color">DeepLearning.js</span>
+                                                Currently intrigued by <span class="raspberry-text-color">TensorFlow</span> and <span class ="raspberry-text-color">DeepLearning.js</span>
                                             </p>
                                             <p class="para">
-                                               Machine Learning Intern (Spring 2018) at <span class="peach-text-color">Trifacta</span>
+                                               Machine Learning Intern (Spring 2018) at <span class="raspberry-text-color">Trifacta</span>
                                             </p>
                                             <p class="para">
                                                A bookworm, foodie and an avid traveler
                                             </p>
                                             
                                             <p class="para">
-                                               TODO 
+                                               And of course, Harry Potter and Game of Thrones  
                                             </p>
                                             <p class="para">
                                                My code can be found at <a href="https://github.com/nagula-ritvika" target="_blank">Github</a>
@@ -190,8 +192,157 @@
                                             <p class="para">
                                                Check out my <a href="Resume_Ritvika_Nagula.pdf" target="_blank">Resume</a>
                                             </p>
+                                            </div>
 
+                                            <div class="row">
+                                            <div class="col-lg-6"> 
+                                            <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+                                            <script src="https://www.amcharts.com/lib/3/maps/js/usaHigh.js" type="text/javascript"></script>
+                                            <script src="https://www.amcharts.com/lib/3/themes/light.js" type="text/javascript"></script>
+                                            <div id="mapdiv" style="width: 270px; height: 200px;">
+                                            </div>
+                                            <script type="text/javascript">
+                                                var map = AmCharts.makeChart("mapdiv",{
+                                                    type: "map",
+                                                    theme: "light",
+                                                    panEventsEnabled : true,
+                                                    backgroundColor : "#535364",
+                                                    backgroundAlpha : 1,
+                                                    zoomControl: {
+                                                    zoomControlEnabled : true
+                                                    },
+                                                    dataProvider : {
+                                                    map : "usaHigh",
+                                                    getAreasFromMap : true,
+                                                    areas :
+                                                    [
+                                                        {
+                                                            "id": "US-AZ",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-CA",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-FL",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-IA",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-IL",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-LA",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-MA",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-NY",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-OH",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-RI",
+                                                            "showAsSelected": true
+                                                        },
+                                                        {
+                                                            "id": "US-TX",
+                                                            "showAsSelected": true
+                                                        }
+                                                    ]
+                                                    },
+                                                    areasSettings : {
+                                                    autoZoom : true,
+                                                    color : "#B4B4B7",
+                                                    colorSolid : "#84ADE9",
+                                                    selectedColor : "#84ADE9",
+                                                    outlineColor : "#666666",
+                                                    rollOverColor : "#9EC2F7",
+                                                    rollOverOutlineColor : "#000000"
+                                                    }
+                                                    });
+
+                                            </script>
                                         </div>
+                                        <div class="col-lg-6"
+                                        
+                                            <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+                                            <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+                                            <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+                                            <div id="mapdiv" style="width: 270px; height: 200px;">
+                                                
+                                            </div>
+                                            <script type="text/javascript">
+                                            var map = AmCharts.makeChart("mapdiv",{
+                                                type: "map",
+                                                theme: "dark",
+                                                projection: "mercator",
+                                                panEventsEnabled : true,
+                                                backgroundColor : "#5b5b5b",
+                                                backgroundAlpha : 1,
+                                                zoomControl: {
+                                                zoomControlEnabled : true
+                                                },
+                                                dataProvider : {
+                                                map : "worldHigh",
+                                                getAreasFromMap : true,
+                                                areas :
+                                                [
+                                                    {
+                                                        "id": "IS",
+                                                        "showAsSelected": true
+                                                    },
+                                                    {
+                                                        "id": "BZ",
+                                                        "showAsSelected": true
+                                                    },
+                                                    {
+                                                        "id": "GT",
+                                                        "showAsSelected": true
+                                                    },
+                                                    {
+                                                        "id": "US",
+                                                        "showAsSelected": true
+                                                    },
+                                                    {
+                                                        "id": "IN",
+                                                        "showAsSelected": true
+                                                    },
+                                                    {
+                                                        "id": "AE",
+                                                        "showAsSelected": true
+                                                    }
+                                                ]
+                                                },
+                                                areasSettings : {
+                                                autoZoom : true,
+                                                color : "#B4B4B7",
+                                                colorSolid : "#84ADE9",
+                                                selectedColor : "#8a89f8",
+                                                outlineColor : "#666666",
+                                                rollOverColor : "#9EC2F7",
+                                                rollOverOutlineColor : "#000000"
+                                                }
+                                                });
+                                            </script>
+                                        </div>
+                                    </div>
+ 
+
+
+
+                                        
                                     </section>
                                     <!--End | About Me-->
 

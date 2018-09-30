@@ -16,7 +16,9 @@ body{
     /*padding: 0;*/
 }
 .color-theme-gray{
-    background-color: #5b5b5b;
+    background-color: #5d535e;
+    /*background-color: #5b5b5b;*/
+    /*background-color: #cc527a;*/
     /*background-color: #212623;*/
     /*background-color: #f3efe0;*/
 }
@@ -50,8 +52,14 @@ body{
 .purple-text-color{
     color: #8a89f8;
 }
-.peach-text-color{
-    color: #f7807e;
+.raspberry-text-color{
+    color: #ed5752;
+}
+.mint-color{
+    color: #A8E6CE;
+}
+.branch-color{
+    color: #5d535e;
 }
 
 .no-display{
@@ -71,7 +79,7 @@ body{
 /*}*/
 .profile-card-image{
     /*height: 190px;*/
-    /*background-color: silver;*/
+    background-color: #5d535e;
     text-align: center;
 
 }
@@ -88,7 +96,7 @@ body{
 }
 .profile-card-details {
     /*height: 100px;*/
-    /*background-color: #1AAF5C;*/
+    background-color: #5d535e;
 }
 .image-dp{
     max-height: 100%;
@@ -149,7 +157,7 @@ body{
 }
 
 .all-social>a:hover{
-    color: #1abc9c;
+    color: #8a89f8;
 }
 .profile-card-resume{
     text-align: center;
@@ -173,7 +181,7 @@ body{
 /**********************************/
 
 .profile-tabs{
-    background-color: #5b5b5b;
+    background-color: #5d535e;
     /*height: 520px;*/
     /*color: black;*/
     padding-left: 0;
@@ -258,7 +266,7 @@ body{
     display: block;
 }
 .effect .line {
-    background: #f7807e;
+    background: #8a89f8;
     width: 25%;
     /*width: 33%;*/
     height: 2px;
@@ -309,7 +317,7 @@ body{
     padding: 1.1em;
 }
 #about-me > p >a{
-    color: #f7807e;
+    color: #ed5752;
     text-decoration: none;
 }
 .para{
