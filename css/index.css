@@ -10,13 +10,14 @@ body{
     font-size: 13px;
     line-height: 25px;
     /*color: #48a770;*/
-    color: ghostwhite;
+    color: white;
 
     overflow-x: hidden;
     /*padding: 0;*/
 }
 .color-theme-gray{
-    background-color: #212623;
+    background-color: #5b5b5b;
+    /*background-color: #212623;*/
     /*background-color: #f3efe0;*/
 }
 /*h1,h3{*/
@@ -44,10 +45,13 @@ body{
     color: #ffffe6;
 }
 .white-text-color{
-    color: #1abc9c;
+    color: #ffffff;
 }
 .purple-text-color{
-    color: #6860f5;
+    color: #8a89f8;
+}
+.peach-text-color{
+    color: #f7807e;
 }
 
 .no-display{
@@ -169,7 +173,7 @@ body{
 /**********************************/
 
 .profile-tabs{
-    /*background-color: white;*/
+    background-color: #5b5b5b;
     /*height: 520px;*/
     /*color: black;*/
     padding-left: 0;
@@ -254,7 +258,7 @@ body{
     display: block;
 }
 .effect .line {
-    background: #3498DB;
+    background: #8a89f8;
     width: 25%;
     /*width: 33%;*/
     height: 2px;
@@ -305,7 +309,7 @@ body{
     padding: 1.1em;
 }
 #about-me > p >a{
-    color: #2F7BDE;
+    color: #f7807e;
     text-decoration: none;
 }
 .para{
@@ -322,7 +326,7 @@ body{
     /*color: ghostwhite;!important;*/
 }
 .dotted-underline > a{
-    color: ghostwhite;!important;
+    color: white;!important;
 }
 
 /**********************************/
@@ -414,7 +418,7 @@ body{
 }
 .experience-duration{
     float: right;
-    color: ghostwhite; !important;
+    color: white; !important;
 }
 .project-detail{
     padding-bottom: 2px;
@@ -462,7 +466,7 @@ body{
     padding: 1em;
 }
 .tes{
-    color: ghostwhite;!important;
+    color: white;!important;
 }
 .portfolio-section {
     padding-bottom:40px;
@@ -476,7 +480,7 @@ body{
     padding:20px
 }
 ul.filter > li > a {
-    color:#1abc9c;
+    color:#8a89f8;
     font-size:1.3em;
     line-height:30px;
     background-color: white;
@@ -488,13 +492,13 @@ ul.filter > li > a {
 }
 ul.filter > li > a:hover,ul.filter > li > a:focus {
     text-decoration: none;
-    color: #16a085;
+    color: #8a89f8;
     outline: none
 }
 ul.filter > li.active a {
     /*color:silver*/
-    background-color: #1abc9c;
-    color: ghostwhite;
+    background-color: #8a89f8;
+    color: white;
 }
 ul.filter > li span {
     color:#ddd;
@@ -546,7 +550,7 @@ ul.filter > li span {
     visibility:visible
 }
 .project-desc{
-    color: ghostwhite;
+    color: white;
     font-size: 1em;
 }
 .portfolio-section figure .overlay-background {
@@ -704,7 +708,7 @@ textarea{
     color: inherit;
 }
 .detail-tail > a:hover{
-    color: ghostwhite;
+    color: white;
 }
 .width-40{
     width: 28%;
