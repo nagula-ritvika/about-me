@@ -318,10 +318,10 @@ body{
 }
 #about-me > p >a{
     color: #ed5752;
-    text-decoration-line: underline;
-    text-decoration-color: #ed5752;
-    text-decoration-style: solid;
+    border-bottom: 1px solid ;
+    text-decoration: None;
 }
+
 .para{
     text-align: center;
     text-justify: inter-word;
@@ -678,6 +678,12 @@ ul.filter > li span {
 .section-title-inner > h5 {
     font-weight: 300;
 }
+
+#map_location{
+    border: 1px groove #8a89f8 ;
+
+}
+
 #contact-me-form{
     padding: 10px 5px;
 }
