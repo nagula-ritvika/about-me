@@ -318,7 +318,9 @@ body{
 }
 #about-me > p >a{
     color: #ed5752;
-    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-color: #ed5752;
+    text-decoration-style: solid;
 }
 .para{
     text-align: center;
